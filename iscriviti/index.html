@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+
+  <meta
+    name="description"
+    content="Iscriviti al servizio WhatsApp di Spazio Conad Forlimpopoli e ricevi le offerte direttamente sul tuo smartphone."
+  >
+
+  <meta name="theme-color" content="#ffffff">
+
+  <title>
+    Offerte WhatsApp | Spazio Conad Forlimpopoli
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+
+<body>
+
+  <main class="page">
+
+    <section
+      class="signup-card"
+      aria-labelledby="page-title"
+    >
+
+
+      <!-- ========================================
+           HEADER
+           ======================================== -->
+
+      <header class="brand-header">
+
+        <img
+          class="brand-logo"
+          src="assets/logo-spazio-conad-forlimpopoli.png"
+          alt="Spazio Conad Forlimpopoli"
+        >
+
+        <div class="service-label">
+          Offerte WhatsApp
+        </div>
+
+      </header>
+
+
+
+      <!-- ========================================
+           INDICATORE DEGLI STEP
+           ======================================== -->
+
+      <div
+        class="progress"
+        aria-label="Avanzamento iscrizione"
+      >
+
+        <div
+          class="progress-item active"
+          data-progress="1"
+        >
+
+          <div class="progress-circle">
+            1
+          </div>
+
+          <span>
+            Iscriviti
+          </span>
+
+        </div>
+
+
+        <div class="progress-line"></div>
+
+
+        <div
+          class="progress-item"
+          data-progress="2"
+        >
+
+          <div class="progress-circle">
+            2
+          </div>
+
+          <span>
+            Salva
+          </span>
+
+        </div>
+
+
+        <div class="progress-line"></div>
+
+
+        <div
+          class="progress-item"
+          data-progress="3"
+        >
+
+          <div class="progress-circle">
+            3
+          </div>
+
+          <span>
+            Fatto
+          </span>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- ========================================
+           STEP 1
+           ======================================== -->
+
+      <section
+        class="step active"
+        id="step-1"
+      >
+
+        <div class="step-content">
+
+          <p class="eyebrow">
+            SERVIZIO GRATUITO
+          </p>
+
+
+          <h1 id="page-title">
+            Le offerte di Spazio Conad,
+            direttamente su WhatsApp.
+          </h1>
+
+
+          <p class="description">
+            Iscriviti gratuitamente al nostro servizio
+            e ricevi sul tuo WhatsApp le offerte di
+            <strong>Spazio Conad Forlimpopoli.</strong>
+          </p>
+
+
+
+          <form
+            id="signup-form"
+            novalidate
+          >
+
+
+            <!-- TELEFONO -->
+
+            <div class="field-group">
+
+              <label for="phone">
+                Il tuo numero WhatsApp
+              </label>
+
+
+              <div class="phone-field">
+
+                <div class="prefix">
+
+                  <span aria-hidden="true">
+                    🇮🇹
+                  </span>
+
+                  <span>
+                    +39
+                  </span>
+
+                </div>
+
+
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  inputmode="numeric"
+                  autocomplete="tel"
+                  placeholder="333 123 4567"
+                  maxlength="16"
+                  aria-describedby="phone-error"
+                  required
+                >
+
+              </div>
+
+
+              <p
+                class="field-error"
+                id="phone-error"
+                role="alert"
+              ></p>
+
+            </div>
+
+
+
+            <!-- PRIVACY -->
+
+            <label class="consent-box">
+
+              <input
+                type="checkbox"
+                id="privacy-consent"
+                required
+              >
+
+              <span
+                class="custom-checkbox"
+                aria-hidden="true"
+              ></span>
+
+
+              <span class="consent-text">
+
+                Ho letto
+
+                <a
+                  href="https://falla03.github.io/-whatsapp-offerte-privacy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  l'Informativa Privacy
+                </a>
+
+                e acconsento al trattamento dei miei dati
+                per ricevere comunicazioni promozionali
+                tramite WhatsApp.
+
+              </span>
+
+            </label>
+
+
+            <p
+              class="field-error"
+              id="consent-error"
+              role="alert"
+            ></p>
+
+
+
+            <!-- CONTINUA -->
+
+            <button
+              class="primary-button"
+              type="submit"
+            >
+
+              <span>
+                CONTINUA
+              </span>
+
+              <span aria-hidden="true">
+                →
+              </span>
+
+            </button>
+
+          </form>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- ========================================
+           STEP 2
+           ======================================== -->
+
+      <section
+        class="step"
+        id="step-2"
+      >
+
+        <div class="step-content centered">
+
+
+          <div
+            class="icon-circle"
+            aria-hidden="true"
+          >
+            📲
+          </div>
+
+
+          <p class="eyebrow">
+            ULTIMO PASSAGGIO
+          </p>
+
+
+          <h2>
+            Salva il nostro numero
+          </h2>
+
+
+          <p class="description">
+
+            Per ricevere correttamente le nostre offerte
+            tramite WhatsApp è necessario avere
+
+            <strong>
+              Spazio Conad Forlimpopoli
+            </strong>
+
+            salvato nella tua rubrica.
+
+          </p>
+
+
+
+          <!-- VCF -->
+
+          <a
+            class="primary-button contact-button"
+            id="save-contact-button"
+            href="https://falla03.github.io/-whatsapp-offerte-privacy/spazio-conad-forlimpopoli.vcf"
+          >
+
+            <span
+              class="button-plus"
+              aria-hidden="true"
+            >
+              +
+            </span>
+
+            <span>
+              SALVA SPAZIO CONAD
+            </span>
+
+          </a>
+
+
+
+          <div class="save-explanation">
+
+            <span aria-hidden="true">
+              💡
+            </span>
+
+            <p>
+              Quando si apre la scheda contatto,
+              aggiungila alla tua rubrica e poi torna qui.
+            </p>
+
+          </div>
+
+
+
+          <div class="saved-confirmation">
+
+            <p>
+              Hai salvato il contatto?
+            </p>
+
+
+            <button
+              class="secondary-button"
+              id="confirm-contact-button"
+              type="button"
+            >
+              SÌ, HO SALVATO IL NUMERO ✓
+            </button>
+
+          </div>
+
+
+
+          <div
+            class="submit-error"
+            id="submit-error"
+            role="alert"
+            aria-live="polite"
+          ></div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- ========================================
+           STEP 3
+           ======================================== -->
+
+      <section
+        class="step"
+        id="step-3"
+      >
+
+        <div class="step-content centered success-content">
+
+
+          <div
+            class="success-icon"
+            aria-hidden="true"
+          >
+            ✓
+          </div>
+
+
+          <p class="eyebrow">
+            ISCRIZIONE COMPLETATA
+          </p>
+
+
+          <h2>
+            Perfetto, sei dei nostri!
+          </h2>
+
+
+          <p class="description">
+
+            Da questo momento potrai ricevere
+            direttamente su WhatsApp le offerte di
+
+            <strong>
+              Spazio Conad Forlimpopoli.
+            </strong>
+
+          </p>
+
+
+
+          <div class="success-message">
+
+            <span
+              class="success-heart"
+              aria-hidden="true"
+            >
+              ❤️
+            </span>
+
+            <p>
+              Grazie per esserti iscritto.
+              Ci vediamo su WhatsApp!
+            </p>
+
+          </div>
+
+
+
+          <!-- DISISCRIZIONE -->
+
+          <div class="unsubscribe-info">
+
+            <p>
+              Puoi disiscriverti dal servizio
+              in qualsiasi momento.
+            </p>
+
+            <p>
+              Ti basterà scrivere
+              <strong>CANCELLAMI</strong>
+              su WhatsApp al numero di
+              <strong>Spazio Conad Forlimpopoli.</strong>
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+    </section>
+
+
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+
+    <footer>
+
+      <p>
+        Spazio Conad Forlimpopoli
+      </p>
+
+
+      <a
+        href="https://falla03.github.io/-whatsapp-offerte-privacy/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Informativa Privacy
+      </a>
+
+    </footer>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
