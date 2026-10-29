@@ -41,7 +41,7 @@ h2 { font-size:32px; line-height:1.08; }
 .consent-box input { position:absolute; opacity:0; pointer-events:none; }
 .custom-checkbox { width:22px; height:22px; flex:0 0 22px; margin-top:1px; border:1.5px solid #ccc; border-radius:6px; background:white; transition:.2s ease; }
 .consent-box input:checked+.custom-checkbox { border-color:var(--red); background:var(--red); }
-.consent-box input:checked+.custom-checkbox::after { content:"âœ“"; height:100%; display:flex; align-items:center; justify-content:center; color:white; font-size:14px; font-weight:700; }
+.consent-box input:checked+.custom-checkbox::after { content:"✓"; height:100%; display:flex; align-items:center; justify-content:center; color:white; font-size:14px; font-weight:700; }
 .consent-text { color:#666; font-size:12px; line-height:1.5; }
 .consent-text a { color:var(--text); font-weight:700; }
 .field-error { min-height:17px; margin:6px 0 0; color:var(--red); font-size:11px; font-weight:500; }
